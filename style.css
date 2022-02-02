@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    color: white;
+}
+.hero {
+    background-color: #1F2937;
+    min-height: 530px;
+    padding: 0 100px;
+}
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: 18px;
+}
+button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    border-radius: 5px;
+  }
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color:#E5E7EB ;
+}  
+img {
+    width: 500px ;
+    height: 300px;
+}
+.header-content {
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+    gap: 40px;
+}
+.white-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: black;
+    
+}
+  h1{
+    color: black;
+    font-weight: 36px;
+    text-align: center;
+    padding: 15px 0;
+
+
+}
+.white-container img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    border-radius: 5px;
+}
+.info {
+    max-width: 220px;
+    text-align: justify;
+}
+.grey-container {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 10px 100px;
+    margin: 50px 0;
+      
+   
+}
+.grey-container :first-child {
+    font-size: 25px;
+    font-style: italic;
+
+}
+.grey-container :second-child {
+    padding-bottom: 30px;
+}
+.grey-container .grey-end {
+    padding-top: 35px;
+}
+.grey-end {
+    text-align: right;
+    padding: 0;
+}
+
+.icon-container {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+.icon {
+    background: blue;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+    padding: 20px 100px;
+    margin: auto;
+    font-size: 20px;
+    
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937 ;
+    min-height: 50px;
+  }
